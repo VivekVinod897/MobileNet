@@ -26,10 +26,10 @@ console.log('modelLoaded');
 
 function check(){
 img = document.getElementById('captured_image');
-classifier.classify(img,gotResult);
+classifier.classify(img, gotResult);
 }
 
-function gotresult(error,results){
+function gotResult(error,results){
 if(error){
 console.error(error);
 }
